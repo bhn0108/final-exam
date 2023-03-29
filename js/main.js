@@ -70,9 +70,9 @@ $('.animate__animated.right').waypoint({
 });
 
 // アコーディオン
-$('.question').on('click', function (e) {
+$('.question').on('click', function () {
     // .answerを表示・非表示
-    $('.answer').slideToggle();
+    $(this).next().slideToggle();
 
     // アイコンを反転
     $(this).find('.icon').toggleClass('open');
