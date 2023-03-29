@@ -283,24 +283,24 @@ li {
     margin-bottom: 3.8125rem;
 }
 
-.main-visual {
+.cover-img {
     position: relative;
     text-align: right;
 }
 
-.main-visual img {
+.cover-img img {
     max-width: 100%;
     height: auto;
     border-radius: 0 0 0 6.25rem;
     margin-right: 0;
 }
 
-@media (min-width: 768px) {
-    .main-visual img {
+/* @media (min-width: 768px) {
+    .cover-img img {
         width: 83%;
         height: 87vh;
     }
-}
+} */
 
 .slick-slide img {
     display: inline;
@@ -313,7 +313,7 @@ li {
 }
 
 /* 画像テキスト */
-.main-visual p {
+.cover-text p {
     font-weight: bold;
     position: absolute;
     left: 1.75rem;
@@ -325,27 +325,27 @@ li {
 }
 
 @media (min-width: 768px) {
-    .main-visual p {
+    .cover-text p {
         left: 9.75rem;
         padding: 1.75rem 1.25rem;
     }
 }
 
-.main-visual p:nth-of-type(1) {
+.cover-text p:nth-of-type(1) {
     bottom: 4.25rem;
 }
 
-.main-visual p:nth-of-type(2) {
+.cover-text p:nth-of-type(2) {
     bottom: 0.5rem;
     letter-spacing: 0.015em;
 }
 
 @media (min-width: 768px) {
-    .main-visual p:nth-of-type(1) {
+    .cover-text p:nth-of-type(1) {
         bottom: 15.25rem;
     }
 
-    .main-visual p:nth-of-type(2) {
+    .cover-text p:nth-of-type(2) {
         bottom: 9.25rem;
     }
 }
@@ -717,7 +717,7 @@ li {
 
 @media (min-width: 768px) {
     #course .container {
-        padding:rem 0 6.25rem;
+        padding: rem 0 6.25rem;
     }
 }
 
