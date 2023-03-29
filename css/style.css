@@ -306,6 +306,12 @@ li {
     display: inline;
 }
 
+@media (min-width: 768px) {
+    .slick-dots {
+        text-align: right;
+    }
+}
+
 /* 画像テキスト */
 .main-visual p {
     font-weight: bold;
