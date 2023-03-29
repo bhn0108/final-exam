@@ -295,12 +295,11 @@ li {
     margin-right: 0;
 }
 
-/* @media (min-width: 768px) {
+@media (min-width: 768px) {
     .cover-img img {
-        width: 83%;
-        height: 87vh;
+        border-radius: 0 0 0 9rem;
     }
-} */
+}
 
 .slick-slide img {
     display: inline;
@@ -308,6 +307,8 @@ li {
 
 @media (min-width: 768px) {
     .slick-dots {
+        bottom: -40px;
+        right: 1.25rem;
         text-align: right;
     }
 }
@@ -326,8 +327,8 @@ li {
 
 @media (min-width: 768px) {
     .cover-text p {
-        left: 9.75rem;
-        padding: 1.75rem 1.25rem;
+        left: 8.25em;
+        padding: 2.25rem 1.25rem;
     }
 }
 
@@ -342,11 +343,12 @@ li {
 
 @media (min-width: 768px) {
     .cover-text p:nth-of-type(1) {
-        bottom: 15.25rem;
+        bottom: 14rem;
     }
 
     .cover-text p:nth-of-type(2) {
-        bottom: 9.25rem;
+        bottom: 7.75rem;
+        letter-spacing: 0.1rem;
     }
 }
 
@@ -372,6 +374,24 @@ li {
     font-size: 1.25rem;
 }
 
+@media (min-width: 768px) {
+    .first-img p:nth-of-type(1) span:nth-of-type(1) {
+        font-size: 2.75rem;
+    }
+
+    .first-img p:nth-of-type(1) span:nth-of-type(2) {
+        font-size: 2.375rem;
+    }
+
+    .first-img p:nth-of-type(1) span:nth-of-type(3) {
+        font-size: 2.75rem;
+    }
+
+    .first-img p:nth-of-type(1) span:nth-of-type(4) {
+        font-size: 2.375rem;
+    }
+}
+
 /* 2行目 */
 .first-img p:nth-of-type(2) span:nth-of-type(1) {
     color: #f26618;
@@ -381,6 +401,16 @@ li {
 .first-img p:nth-of-type(2) span:nth-of-type(2) {
     color: #000;
     font-size: 1.25rem;
+}
+
+@media (min-width: 768px) {
+    .first-img p:nth-of-type(2) span:nth-of-type(1) {
+        font-size: 2.25rem;
+    }
+
+    .first-img p:nth-of-type(2) span:nth-of-type(2) {
+        font-size: 2.25rem;
+    }
 }
 
 /***** 2枚目 *****/
@@ -395,6 +425,16 @@ li {
     font-size: 1.5rem;
 }
 
+@media (min-width: 768px) {
+    .second-img p:nth-of-type(1) span:nth-of-type(1) {
+        font-size: 2.25rem;
+    }
+
+    .second-img p:nth-of-type(1) span:nth-of-type(2) {
+        font-size: 2.75rem;
+    }
+}
+
 /* 2行目 */
 .second-img p:nth-of-type(2) span:nth-of-type(1) {
     color: #46c017;
@@ -404,6 +444,16 @@ li {
 .second-img p:nth-of-type(2) span:nth-of-type(2) {
     color: #000;
     font-size: 1.25rem;
+}
+
+@media (min-width: 768px) {
+    .second-img p:nth-of-type(2) span:nth-of-type(1) {
+        font-size: 2.75rem;
+    }
+
+    .second-img p:nth-of-type(2) span:nth-of-type(2) {
+        font-size: 2.25rem;
+    }
 }
 
 /***** 3枚目 *****/
@@ -418,6 +468,16 @@ li {
     font-size: 1.25rem;
 }
 
+@media (min-width: 768px) {
+    .third-img p:nth-of-type(1) span:nth-of-type(1) {
+        font-size: 2.75rem;
+    }
+
+    .third-img p:nth-of-type(1) span:nth-of-type(2) {
+        font-size: 2.25rem;
+    }
+}
+
 /* 2行目 */
 .third-img p:nth-of-type(2) span:nth-of-type(1) {
     color: #46c017;
@@ -427,6 +487,16 @@ li {
 .third-img p:nth-of-type(2) span:nth-of-type(2) {
     color: #f2a118;
     font-size: 1.5rem;
+}
+
+@media (min-width: 768px) {
+    .third-img p:nth-of-type(2) span:nth-of-type(1) {
+        font-size: 2.25rem;
+    }
+
+    .third-img p:nth-of-type(2) span:nth-of-type(2) {
+        font-size: 2.25rem;
+    }
 }
 
 /***** 4枚目 *****/
@@ -441,6 +511,16 @@ li {
     font-size: 1.25rem;
 }
 
+@media (min-width: 768px) {
+    .fourth-img p:nth-of-type(1) span:nth-of-type(1) {
+        font-size: 2.75rem;
+    }
+
+    .fourth-img p:nth-of-type(1) span:nth-of-type(2) {
+        font-size: 2.25rem;
+    }
+}
+
 /* 2行目 */
 .fourth-img p:nth-of-type(2) span:nth-of-type(1) {
     color: #46c017;
@@ -450,6 +530,16 @@ li {
 .fourth-img p:nth-of-type(2) span:nth-of-type(2) {
     color: #000;
     font-size: 1.25rem;
+}
+
+@media (min-width: 768px) {
+    .fourth-img p:nth-of-type(2) span:nth-of-type(1) {
+        font-size: 2.75rem;
+    }
+
+    .fourth-img p:nth-of-type(2) span:nth-of-type(2) {
+        font-size: 2.25rem;
+    }
 }
 
 /***** 5枚目 *****/
@@ -464,6 +554,16 @@ li {
     font-size: 1.25rem;
 }
 
+@media (min-width: 768px) {
+    .fifth-img p:nth-of-type(1) span:nth-of-type(1) {
+        font-size: 2.75rem;
+    }
+
+    .fifth-img p:nth-of-type(1) span:nth-of-type(2) {
+        font-size: 2.25rem;
+    }
+}
+
 /* 2行目 */
 .fifth-img p:nth-of-type(2) span:nth-of-type(1) {
     color: #f26618;
@@ -473,6 +573,18 @@ li {
 .fifth-img p:nth-of-type(2) span:nth-of-type(2) {
     color: #000;
     font-size: 1.25rem;
+}
+
+@media (min-width: 768px) {
+    .fifth-img p:nth-of-type(2) span:nth-of-type(1) {
+        color: #f26618;
+        font-size: 2.75rem;
+    }
+
+    .fifth-img p:nth-of-type(2) span:nth-of-type(2) {
+        color: #000;
+        font-size: 2.25rem;
+    }
 }
 
 /* お問い合わせ
@@ -717,7 +829,7 @@ li {
 
 @media (min-width: 768px) {
     #course .container {
-        padding: rem 0 6.25rem;
+        padding: 7rem 0 6.25rem;
     }
 }
 
@@ -1157,7 +1269,7 @@ li {
 
 @media (min-width: 768px) {
     #price-plan .container {
-        padding: 7.5rem 1rem 7.5rem 1rem;
+        padding: 7.5rem 1rem 7.25rem 1rem;
         margin: auto;
     }
 
@@ -1172,7 +1284,7 @@ li {
 
 @media (min-width: 768px) {
     .plan {
-        margin-bottom: 3.5rem;
+        margin-bottom: 3rem;
     }
 }
 
@@ -1318,6 +1430,7 @@ li {
 @media (min-width: 768px) {
     .plan p {
         text-align: left;
+        margin-top: 0.5rem;
         margin-left: 9.5rem;
     }
 }
@@ -1376,7 +1489,7 @@ li {
 
 @media (min-width: 768px) {
     .qa {
-        margin-bottom: 1.45rem;
+        /* margin-bottom: 1.45rem; */
     }
 }
 
