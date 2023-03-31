@@ -50,6 +50,8 @@ li {
 
 @media (min-width: 768px) {
     .button {
+        max-width: 20rem;
+        padding: 1rem;
         line-height: 1.5;
         font-size: 1.25rem;
     }
@@ -605,7 +607,7 @@ li {
 
 @media (min-width: 768px) {
     .contact:nth-of-type(2) .container {
-        padding: 0 0 4.5rem 0;
+        padding: 0 0 4.25rem 0;
     }
 }
 
@@ -623,7 +625,7 @@ li {
     }
 
     .contact:nth-of-type(2) .container p:nth-of-type(2) {
-        margin-bottom: 1.5rem;
+        margin-bottom: 1.75rem;
     }
 }
 
@@ -645,7 +647,7 @@ li {
         justify-content: center;
         align-items: flex-start;
         column-gap: 4.5rem;
-        padding: 4.5rem 1.5rem 2.5rem;
+        padding: 4.5rem 1.5rem 2.75rem;
     }
 }
 
@@ -833,6 +835,7 @@ li {
 
 .first-month-campaign .button-icon {
     right: 1.25rem;
+    top: 50%;
 }
 
 /* コース案内
@@ -844,7 +847,7 @@ li {
 
 @media (min-width: 768px) {
     #course .container {
-        padding: 7rem 0 6.25rem;
+        padding: 6.8rem 0 6rem;
     }
 }
 
@@ -928,7 +931,7 @@ li {
     .st>.tab-content>.tab-pane {
         display: flex;
         column-gap: 1.5rem;
-        padding: 1.75rem 1.5rem 0 1.75rem;
+        padding: 1.5rem 1.5rem 0 1.75rem;
         font-size: 1.625rem;
     }
 }
@@ -971,7 +974,7 @@ li {
 
 @media (min-width: 768px) {
     .course-tab-content-title span {
-        line-height: 1;
+        line-height: 1.25;
     }
 }
 
@@ -1016,7 +1019,7 @@ li {
 
 @media (min-width: 768px) {
     .contact:nth-of-type(4) .container {
-        padding: 2.25rem 2.5rem 1.75rem;
+        padding: 2.25rem 2.5rem 2.4rem;
     }
 }
 
@@ -1043,7 +1046,7 @@ li {
 
 @media (min-width: 768px) {
     #point .container {
-        padding: 6.25rem 1.5rem 5.75rem;
+        padding: 6rem 1.5rem 5.75rem;
     }
 }
 
@@ -1055,7 +1058,7 @@ li {
 @media (min-width: 768px) {
     #point .section-title {
         line-height: 1.75;
-        margin-bottom: 3.25rem;
+        margin-bottom: 3.2rem;
     }
 }
 
@@ -1074,7 +1077,7 @@ li {
     #point .section-title::after {
         width: 2.25rem;
         height: 0.125rem;
-        bottom: -1rem;
+        bottom: -0.75rem;
         left: 48.25%;
     }
 }
@@ -1088,7 +1091,7 @@ li {
         display: flex;
         align-items: center;
         column-gap: 2.75rem;
-        margin-bottom: 3rem;
+        margin-bottom: 2.7rem;
     }
 
     .feature:nth-of-type(1),
@@ -1131,11 +1134,11 @@ li {
 
     .feature p:nth-of-type(1) {
         font-size: 5rem;
-        margin-bottom: 1rem;
+        /* margin-bottom: 0.25rem; */
     }
 
     .feature p:nth-of-type(2) {
-        font-size: 1.5rem;
+        font-size: 1.45rem;
     }
 }
 
@@ -1147,18 +1150,24 @@ li {
 
 @media (min-width: 768px) {
     .contact:nth-of-type(5) .container {
-        padding: 1.75rem 2.5rem 2.25rem;
+        padding: 2rem 2.5rem 2.4rem;
     }
 }
 
 @media (min-width: 768px) {
     .contact:nth-of-type(5) .container p:nth-of-type(2) {
-        margin-bottom: 1.25rem;
+        margin-bottom: 1.2rem;
     }
 }
 
 /* 講師紹介
 ------------------------------------------ */
+@media (min-width: 768px) {
+    #introduction .section-title {
+        margin-bottom: 4.5rem;
+    }
+}
+
 #introduction .section-title::after {
     bottom: -1.3rem;
     left: 9rem;
@@ -1179,7 +1188,7 @@ li {
 
 @media (min-width: 768px) {
     #introduction .container {
-        padding: 7.5rem 10.25rem 6rem;
+        padding: 7rem 10.25rem 5.75rem;
     }
 }
 
@@ -1209,7 +1218,7 @@ li {
     .teacher {
         width: 50%;
         margin-bottom: 0;
-        padding: 2rem 1.5rem 1.5rem;
+        padding: 1.5rem;
     }
 }
 
@@ -1218,6 +1227,12 @@ li {
     width: 8.125rem;
     border-radius: 50%;
     margin-bottom: 0.5rem;
+}
+
+@media (min-width: 768px) {
+    .teacher img {
+        margin-bottom: 0.75rem;
+    }
 }
 
 .teacher>p:nth-of-type(1) {
@@ -1230,6 +1245,12 @@ li {
     font-size: 0.875rem;
     margin-bottom: 1rem;
     font-weight: bold;
+}
+
+@media (min-width: 768px) {
+    .teacher>p:nth-of-type(2) {
+        margin-bottom: 1.25rem;
+    }
 }
 
 .teacher .text {
@@ -1245,8 +1266,8 @@ li {
 
 @media (min-width: 768px) {
     .teacher .text {
-        padding: 0.25rem 0.5rem 1rem;
-        line-height: 1.75;
+        /* padding: 0.5rem 0.25rem 0.6rem; */
+        line-height: 1.675;
     }
 }
 
@@ -1258,7 +1279,7 @@ li {
 
 @media (min-width: 768px) {
     .contact:nth-of-type(6) .container {
-        padding: 1.5rem 2.5rem 2.5rem;
+        padding: 2.25rem 2.5rem 2.5rem;
     }
 }
 
@@ -1268,7 +1289,7 @@ li {
 
 @media (min-width: 768px) {
     .contact:nth-of-type(6) .container p {
-        line-height: 1.5;
+        line-height: 1.25;
     }
 }
 
@@ -1278,7 +1299,7 @@ li {
 
 @media (min-width: 768px) {
     .contact:nth-of-type(6) .container p:nth-of-type(2) {
-        margin-bottom: 1rem;
+        margin-bottom: 1.5rem;
     }
 }
 
@@ -1290,7 +1311,7 @@ li {
 
 @media (min-width: 768px) {
     #price-plan .container {
-        padding: 7.5rem 1rem 7.25rem 1rem;
+        padding: 7rem 1rem 6.75rem 1rem;
         margin: auto;
     }
 }
@@ -1327,8 +1348,13 @@ li {
 @media (min-width: 768px) {
     .price-plan-title {
         text-align: left;
-        margin-left: 9.5rem;
+        margin-left: 9.25rem;
         font-size: 1.5rem;
+        letter-spacing: 0.05rem;
+    }
+
+    .price-plan-title:nth-of-type(2) {
+        margin-bottom: 0.2rem;
     }
 }
 
@@ -1352,6 +1378,12 @@ li {
 
 .price-plan-table thead th {
     padding: 0.75rem 0;
+}
+
+@media (min-width: 768px) {
+    .price-plan-table thead th {
+        padding: 0.69rem 0;
+    }
 }
 
 .price-plan-table thead th:first-child {
@@ -1410,6 +1442,12 @@ li {
 
 .plan:last-child .price-plan-table tbody td:last-child {
     padding: 0.5rem;
+}
+
+@media (min-width: 768px) {
+    .plan:last-child .price-plan-table tbody td:last-child {
+        padding: 0.4rem;
+    }
 }
 
 .price-plan-table tbody td:first-child {
@@ -1484,19 +1522,19 @@ li {
 
 @media (min-width: 768px) {
     .contact:nth-of-type(7) .container p:nth-of-type(2) {
-        margin-bottom: 1rem;
+        margin-bottom: 1.2rem;
     }
 }
 
 /* FAQ
 ------------------------------------------ */
 #faq .container {
-    padding: 4.25rem 1rem;
+    padding: 4.25rem 1rem 4.5rem;
 }
 
 @media (min-width: 768px) {
     #faq .container {
-        padding: 7.5rem 5.5rem 6rem;
+        padding: 7.25rem 5.5rem 5.75rem;
     }
 }
 
@@ -1524,6 +1562,12 @@ li {
     margin-bottom: 1.25rem;
 }
 
+@media (min-width: 768px) {
+    #qa {
+        margin-bottom: 1.5rem;
+    }
+}
+
 .qa:last-child {
     margin-bottom: 0;
 }
@@ -1539,7 +1583,7 @@ li {
 
 @media (min-width: 768px) {
     .question {
-        padding: 1.75rem 5.75rem 2rem;
+        padding: 1.25rem 5.75rem 2.35rem;
         position: relative;
     }
 }
@@ -1549,6 +1593,12 @@ li {
     padding: 1rem 1.25rem 1.5rem;
 }
 
+@media (min-width: 768px) {
+    .qa:nth-of-type(2) .question {
+        padding: 1.75rem 5.75rem 2.4rem;
+    }
+}
+
 .qa:nth-of-type(3) .question {
     column-gap: 0.5rem;
     padding: 1rem 1.75rem 1.5rem 1.25rem;
@@ -1556,12 +1606,18 @@ li {
 
 @media (min-width: 768px) {
     .qa:nth-of-type(3) .question {
-        padding: 2rem 5.75rem 1.5rem;
+        padding: 2rem 5.75rem 2.1rem;
     }
 }
 
 .qa:nth-of-type(4) .question {
     padding: 1rem 1.25rem 1.5rem;
+}
+
+@media (min-width: 768px) {
+    .qa:nth-of-type(4) .question {
+        padding: 1.5rem 5.5rem 2.2rem;
+    }
 }
 
 .question p:first-child {
@@ -1579,13 +1635,20 @@ li {
 @media (min-width: 768px) {
     .question p:first-child {
         position: absolute;
-        line-height: 1;
+        line-height: 1.15;
         font-size: 1.5rem;
         width: 3rem;
         height: 3rem;
         position: absolute;
-        top: 1.5rem;
+        top: 1.25rem;
         left: 1.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .qa:nth-of-type(2) .question p:first-child {
+        line-height: 1.5;
+        top: 1.1rem;
     }
 }
 
@@ -1613,25 +1676,41 @@ li {
     border-top: solid 10px #f26618;
     border-right: solid 10px #f26618;
     border-left: solid 2px #f26618;
-    top: 0.4rem;
-    right: -0.25rem;
+    top: 0.5rem;
+    right: -0.4rem;
     /* transform: translate(-50%, -50%) rotate(-45deg); */
-    clip-path: polygon(0 100%, 50% 0, 100% 100%);
+    clip-path: polygon(0 0, 100% 0, 50% 100%);
+}
+
+@media (min-width: 768px) {
+    .icon:before {
+        border-top: solid 13px #f26618;
+        border-right: solid 13px #f26618;
+        border-left: solid 5px #f26618;
+        top: 0.6rem;
+        right: -0.5rem;
+    }
 }
 
 .qa:nth-of-type(3) .icon:before {
     right: -1rem;
 }
 
+@media (min-width: 768px) {
+    .qa:nth-of-type(3) .icon:before {
+        right: -0.5rem;
+    }
+}
+
 .icon.open:before {
     top: 0.75rem;
     right: -0.75rem;
-    transform: translate(-50%, -50%) rotate(180deg);
+    transform: translate(0%, 0%) rotate(180deg);
 }
 
 /* 回答 */
 .answer {
-    display: flex;
+    display: none;
     border-radius: 0 0 0.5rem 0.5rem;
     background-color: #ffeee5;
     column-gap: 0.75rem;
@@ -1651,7 +1730,7 @@ li {
 
 @media (min-width: 768px) {
     .qa:nth-of-type(2) .answer {
-        padding: 1.75rem 4rem 2.25rem 5.75rem;
+        padding: 1.75rem 4rem 1.75rem 5.75rem;
     }
 }
 
@@ -1664,7 +1743,7 @@ li {
 
     .qa:nth-of-type(3) .answer,
     .qa:nth-of-type(4) .answer {
-        padding: 1.75rem 4rem 2.25rem 5.75rem;
+        padding: 1.75rem 4rem 2.2rem 5.7rem;
     }
 }
 
@@ -1695,13 +1774,19 @@ li {
         width: 3rem;
         height: 3rem;
         position: absolute;
-        top: 1.5rem;
-        left: 1.5rem;
+        top: 1.25rem;
+        left: 1.6rem;
     }
 }
 
 .qa:nth-of-type(2) .answer p:first-child {
     width: 2.75rem;
+}
+
+@media (min-width: 768px) {
+    .qa:nth-of-type(2) .answer p:first-child {
+        width: 3rem;
+    }
 }
 
 .accordion-content-active {
@@ -1711,12 +1796,19 @@ li {
 /* お問い合わせ
 ------------------------------------------ */
 .contact:nth-of-type(8) .container {
-    padding: 2.5rem 2rem 1.75rem 2rem;
+    padding: 2.5rem 2rem 2rem 2rem;
 }
 
 @media (min-width: 768px) {
     .contact:nth-of-type(8) .container {
-        padding: 1.75rem 2rem 2.75rem 2rem;
+        padding: 1.75rem 2rem 2.45rem 2rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .contact:nth-of-type(8) .container p:nth-of-type(2) {
+        margin-bottom: 1.25rem;
+        ;
     }
 }
 
@@ -1740,6 +1832,12 @@ li {
 
 .footer-logo {
     padding: 1.75rem 0;
+}
+
+@media (min-width: 768px) {
+    .footer-logo {
+        padding: 2rem 0;
+    }
 }
 
 .footer-logo img {
