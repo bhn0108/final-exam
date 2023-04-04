@@ -70,7 +70,8 @@ $('.animate__animated.right').waypoint({
 });
 
 // アコーディオン
-$('.question').on('click', function () {
+$('.answer').hide();
+$('.question').on('click', function() {
     // .answerを表示・非表示
     $(this).next().slideToggle();
 
