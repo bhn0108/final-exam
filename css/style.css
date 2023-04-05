@@ -1285,13 +1285,13 @@ li {
     padding: 5.25rem 2.5rem 5rem;
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1079px) {
     #introduction .container {
-        padding: 7.25rem 10.25rem 5.75rem;
+        padding: 7.25rem 6rem 5.75rem;
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1536px) {
+@media (min-width: 1080px) {
     #introduction .container {
         padding: 7.25rem 10.25rem 5.75rem;
     }
@@ -1305,6 +1305,7 @@ li {
     .teacher-introduction {
         display: flex;
         column-gap: 2rem;
+        width: auto;
     }
 }
 
