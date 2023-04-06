@@ -367,6 +367,7 @@ li {
 
 /* 画像テキスト */
 .cover-text {
+    text-align: left;
     position: absolute;
     bottom: 1.5%;
     left: -2%;
@@ -375,13 +376,13 @@ li {
 @media (min-width: 768px) {
     .cover-text {
         bottom: 16%;
-        left: -10.5%;
+        left: -9.5%;
     }
 }
 
 .cover-text p {
+    text-align: left;
     font-weight: bold;
-    /* position: absolute; */
     padding: 1.5rem 1.25rem 1.75rem;
     line-height: 0;
     border-radius: 0 0.5rem 0.5rem 0;
@@ -391,13 +392,13 @@ li {
 
 @media (min-width: 768px) {
     .cover-text p {
-        /* left: -10%; */
         padding: 2.5rem 1.25rem;
     }
 }
 
 .cover-text p:nth-of-type(1) {
     margin-bottom: 0.5rem;
+    display: inline-block;
 }
 
 .cover-text p:nth-of-type(2) {
@@ -409,9 +410,9 @@ li {
         margin-bottom: 1rem;
     }
 
-    .cover-text p:nth-of-type(2) {
+    /* .cover-text p:nth-of-type(2) {
         letter-spacing: 0.1rem;
-    }
+    } */
 }
 
 /***** 1枚目 *****/
@@ -482,6 +483,10 @@ li {
 
 /***** 2枚目 *****/
 /* 1行目 */
+/* .second-img p:nth-of-type(1) {
+    width: 10rem;
+} */
+
 .second-img p:nth-of-type(1) span:nth-of-type(1) {
     color: #000;
     font-size: 1.25rem;
@@ -918,7 +923,13 @@ li {
     text-align: center;
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1079px) {
+    #course .container {
+        padding: 6.8rem 1rem 6rem;
+    }
+}
+
+@media (min-width: 1080px) {
     #course .container {
         padding: 6.8rem 0 6rem;
     }
@@ -1251,7 +1262,7 @@ li {
 
 @media (min-width: 768px) {
     .contact:nth-of-type(5) .container p:nth-of-type(2) {
-        margin-bottom: 1.2rem;
+        margin-bottom: 1rem;
     }
 }
 
@@ -1373,7 +1384,6 @@ li {
 
 @media (min-width: 768px) {
     .teacher .text {
-        /* padding: 0.5rem 0.25rem 0.6rem; */
         line-height: 1.675;
     }
 }
@@ -1588,7 +1598,7 @@ li {
 
 .price-plan-table tbody td span:nth-of-type(1) {
     font-size: 2rem;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
     font-weight: bold;
     color: #46c017;
 }
@@ -1691,22 +1701,22 @@ li {
 .question {
     display: flex;
     align-items: flex-start;
-    column-gap: 1rem;
+    /* column-gap: 0.5rem; */
     border-radius: 0.5rem 0.5rem 0 0;
-    padding: 1.25rem 1.25rem 1.75rem;
+    padding: 1.25rem 1.8rem 1.8rem 1rem;
 }
 
 @media (min-width: 768px) {
     .question {
-        padding: 1.25rem 5.75rem 2.35rem;
+        padding: 1.75rem 5.75rem 2.35rem;
         position: relative;
         text-align: left;
     }
 }
 
 .qa:nth-of-type(2) .question {
-    column-gap: 0.75rem;
-    padding: 1rem 1.25rem 1.5rem;
+    /* column-gap: 0.5rem; */
+    padding: 1rem 1.8rem 1.25rem 1rem;
 }
 
 @media (min-width: 768px) {
@@ -1716,8 +1726,8 @@ li {
 }
 
 .qa:nth-of-type(3) .question {
-    column-gap: 0.9rem;
-    padding: 1rem 1.75rem 1.5rem 1.25rem;
+    /* column-gap: 0.75rem; */
+    padding: 1rem 1.75rem 1.5rem 1rem;
 }
 
 @media (min-width: 768px) {
@@ -1727,7 +1737,8 @@ li {
 }
 
 .qa:nth-of-type(4) .question {
-    padding: 1rem 1.25rem 1.5rem;
+    padding: 1.4rem 1.75rem 1.5rem 1rem;
+    /* column-gap: 0.6rem; */
 }
 
 @media (min-width: 768px) {
@@ -1739,13 +1750,14 @@ li {
 .question p:first-child {
     color: #f26618;
     background-color: #ffeee5;
-    padding: 0.4rem;
+    padding: 0.25rem 0.6rem;
     border-radius: 50%;
-    width: 1.5rem;
-    height: 1.5rem;
-    line-height: 0.6;
-    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    height: 2rem;
+    line-height: 1.5;
+    font-family: 'Poppins';
     font-weight: bold;
+    margin-right: 0.75rem;
 }
 
 @media (min-width: 768px) {
@@ -1758,7 +1770,7 @@ li {
         position: absolute;
         top: 1.25rem;
         left: 1.5rem;
-        padding: 0.5rem 0 0 0.75rem;
+        padding: 0.5rem 0.75rem;
     }
 }
 
@@ -1775,6 +1787,12 @@ li {
 }
 
 /* トグルアイコン */
+.icon-wrap {
+    /* position: absolute;
+    right: 2rem; */
+    margin-left: auto;
+}
+
 @media (min-width: 768px) {
     .icon-wrap {
         position: absolute;
@@ -1820,15 +1838,15 @@ li {
 }
 
 .icon.open:before {
-    top: 0.25rem;
-    right: -0.25rem;
+    top: 0.5rem;
+    right: -1rem;
     transform: translate(0%, 0%) rotate(180deg);
 }
 
 @media (min-width: 768px) {
     .icon.open:before {
-        top: 0.75rem;
-        right: -0.75rem;
+        top: 0.5rem;
+        right: -0.5rem;
     }
 }
 
@@ -1884,7 +1902,7 @@ li {
     /* width: 2rem; */
     height: 2rem;
     line-height: 1.5;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
     font-weight: bold;
 }
 
