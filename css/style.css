@@ -1450,7 +1450,7 @@ li {
 
 @media (min-width: 768px) {
     .plan {
-        margin-bottom: 2.75rem;
+        margin-bottom: 3rem;
     }
 }
 
@@ -1632,12 +1632,19 @@ li {
 /* お問い合わせ
 ------------------------------------------ */
 .contact:nth-of-type(7) .container {
-    padding: 2rem 2rem 1.75rem;
+    padding: 2rem;
 }
 
 @media (min-width: 768px) {
     .contact:nth-of-type(7) .container {
-        padding: 2.25rem 2rem;
+        padding: 2.25rem 2rem 2.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .contact:nth-of-type(7) .container p:nth-of-type(1) {
+        line-height: 1.1;
+        margin-bottom: 1rem;
     }
 }
 
@@ -1654,12 +1661,12 @@ li {
 /* FAQ
 ------------------------------------------ */
 #faq .container {
-    padding: 5.25rem 1rem 4.75rem;
+    padding: 5rem 1rem 4.75rem;
 }
 
 @media (min-width: 768px) {
     #faq .container {
-        padding: 7.25rem 5.5rem 5.75rem;
+        padding: 7.25rem 5.5rem 6rem;
     }
 }
 
@@ -1669,13 +1676,13 @@ li {
 
 @media (min-width: 768px) {
     #faq .section-title {
-        margin-bottom: 4.5rem;
+        margin-bottom: 4.25rem;
     }
 
     #faq .section-title::after {
         width: 2.25rem;
         height: 0.1rem;
-        bottom: -1.75rem;
+        bottom: -1.9rem;
         left: 48%;
     }
 }
@@ -1688,7 +1695,7 @@ li {
 }
 
 @media (min-width: 768px) {
-    #qa {
+    .qa {
         margin-bottom: 1.5rem;
     }
 }
@@ -1709,7 +1716,7 @@ li {
 
 @media (min-width: 768px) {
     .question {
-        padding: 1.75rem 5.75rem 2.35rem;
+        padding: 1.75rem 5.75rem 2.2rem;
         /* position: relative; */
         text-align: left;
     }
@@ -1722,29 +1729,29 @@ li {
 
 @media (min-width: 768px) {
     .qa:nth-of-type(2) .question {
-        padding: 1.75rem 5.75rem 2.4rem;
+        padding: 1.75rem 5.75rem 2.1rem;
     }
 }
 
 .qa:nth-of-type(3) .question {
     /* column-gap: 0.75rem; */
-    padding: 1rem 1.75rem 1.5rem 1rem;
+    padding: 1.25rem 1.75rem 1.5rem 1rem;
 }
 
 @media (min-width: 768px) {
     .qa:nth-of-type(3) .question {
-        padding: 2rem 5.75rem 2.1rem;
+        padding: 2rem 5.75rem 1.95rem;
     }
 }
 
 .qa:nth-of-type(4) .question {
-    padding: 1.4rem 1.75rem 1.5rem 1rem;
+    padding: 1.1rem 1.75rem 1.5rem 1rem;
     /* column-gap: 0.6rem; */
 }
 
 @media (min-width: 768px) {
     .qa:nth-of-type(4) .question {
-        padding: 1.5rem 5.5rem 2.2rem;
+        padding: 1.5rem 5.5rem 2.1rem;
     }
 }
 
@@ -1791,11 +1798,32 @@ li {
 .bi-caret-down-fill {
     color: #f26618;
     position: absolute;
-    right: 3%;
+    right: 0.75rem;
+}
+
+@media (min-width: 768px) {
+    .bi-caret-down-fill {
+        font-size: 1.5rem;
+        right: 2.45%;
+        /* top: 30%; */
+        top: 1.65rem;
+    }
+
+    .bi-caret-down-fill:nth-of-type(4) {
+        right: 2.5%;
+        top: 1.5rem;
+    }
 }
 
 .bi-caret-down-fill.open {
     transform: translate(0%, 0%) rotate(180deg);
+}
+
+@media (min-width: 768px) {
+    .qa:nth-of-type(4) .bi-caret-down-fill.open {
+        right: 2.5%;
+        top: 1.5rem;
+    }
 }
 
 /* 回答 */
@@ -1833,7 +1861,7 @@ li {
 
     .qa:nth-of-type(3) .answer,
     .qa:nth-of-type(4) .answer {
-        padding: 1.75rem 4rem 2.2rem 5.7rem;
+        padding: 1.75rem 4rem 1.95rem 5.7rem;
     }
 }
 
@@ -1886,12 +1914,18 @@ li {
 /* お問い合わせ
 ------------------------------------------ */
 .contact:nth-of-type(8) .container {
-    padding: 2.25rem 2rem 1.95rem 2rem;
+    padding: 2rem 2rem 1.95rem;
 }
 
 @media (min-width: 768px) {
     .contact:nth-of-type(8) .container {
-        padding: 2.25rem 2rem 2.45rem 2rem;
+        padding: 2.25rem 2rem 2.65rem 2rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .contact:nth-of-type(8) .container p:nth-of-type(1) {
+        line-height: 1.2;
     }
 }
 
