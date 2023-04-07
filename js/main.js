@@ -76,5 +76,5 @@ $('.question').on('click', function() {
     $(this).next().slideToggle();
 
     // アイコンを反転
-    $(this).find('.icon').toggleClass('open');
+    $(this).find('.bi-caret-down-fill').toggleClass('open');
 });
