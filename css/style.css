@@ -888,7 +888,7 @@ li {
 
 .first-month-campaign:hover {
     background-color: #f11f8d;
-    border: 2px solid #fff;
+    border: 2px solid #f11f8d;
     color: #fff;
 }
 
@@ -1704,12 +1704,13 @@ li {
     /* column-gap: 0.5rem; */
     border-radius: 0.5rem 0.5rem 0 0;
     padding: 1.25rem 1.8rem 1.8rem 1rem;
+    position: relative;
 }
 
 @media (min-width: 768px) {
     .question {
         padding: 1.75rem 5.75rem 2.35rem;
-        position: relative;
+        /* position: relative; */
         text-align: left;
     }
 }
@@ -1787,67 +1788,14 @@ li {
 }
 
 /* トグルアイコン */
-.icon-wrap {
-    /* position: absolute;
-    right: 2rem; */
-    margin-left: auto;
-}
-
-@media (min-width: 768px) {
-    .icon-wrap {
-        position: absolute;
-        right: 2rem;
-    }
-}
-
-.icon {
-    position: relative;
-}
-
-.icon:before {
+.bi-caret-down-fill {
+    color: #f26618;
     position: absolute;
-    content: "";
-    transition: all .4s;
-    border-top: solid 10px #f26618;
-    border-right: solid 10px #f26618;
-    border-left: solid 2px #f26618;
-    top: 0.5rem;
-    right: -0.4rem;
-    /* transform: translate(-50%, -50%) rotate(-45deg); */
-    clip-path: polygon(0 0, 100% 0, 50% 100%);
+    right: 3%;
 }
 
-@media (min-width: 768px) {
-    .icon:before {
-        border-top: solid 13px #f26618;
-        border-right: solid 13px #f26618;
-        border-left: solid 5px #f26618;
-        top: 0.6rem;
-        right: -0.5rem;
-    }
-}
-
-.qa:nth-of-type(3) .icon:before {
-    right: -1rem;
-}
-
-@media (min-width: 768px) {
-    .qa:nth-of-type(3) .icon:before {
-        right: -0.5rem;
-    }
-}
-
-.icon.open:before {
-    top: 0.5rem;
-    right: -1rem;
+.bi-caret-down-fill.open {
     transform: translate(0%, 0%) rotate(180deg);
-}
-
-@media (min-width: 768px) {
-    .icon.open:before {
-        top: 0.5rem;
-        right: -0.5rem;
-    }
 }
 
 /* 回答 */
